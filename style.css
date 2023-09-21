@@ -262,6 +262,7 @@ header {
     #home{
 
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
         background-color: transparent;
         height: 90vh;
@@ -272,10 +273,15 @@ header {
     .titulo{
 
         display: block;
-        color: white;
+        background-image: linear-gradient(to bottom, #150259 15%, #9D0022);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: rgb(255, 255, 255);
         text-align: left;
         padding-left: 3rem;
         font-family: 'Bricolage Grotesque', sans-serif;
+        text-shadow: 0.1em 0.1em  rgb(255, 255, 255) ;
         font-weight: bolder;
         font-weight: bolder;
         padding-left: 3rem;
@@ -287,6 +293,21 @@ header {
 
     .titulo::after{
         content: "|";
+    
+    }
+
+    .paragrafo{
+
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-inline: 3rem;
+        font-size: 17px;
+        color: #fff;
+        text-shadow: 1px 1px   black ;
+        font-weight: 300;
+    
     
     }
 
@@ -308,11 +329,11 @@ header {
         box-shadow: 0px 0px 30px  black ;
         border: none;
         border-radius: 50px;
-        height: 30px;
+        height: 50px;
         align-content: center;
         z-index: 2;
         color: #ffffff;
-        width: 50%;
+        width: 100%;
         background: linear-gradient(90deg, #5E25FF 15%,#5E25FF 15% , #FF0000 );
         transition: 1s;
     }
@@ -351,7 +372,7 @@ header {
     #icones{
 
        display: flex;
-       background: linear-gradient(0deg, #060126 85%, #15025900 , #3805f200 );
+       background: linear-gradient(0deg, #060126 100%, #15025900 , #3805f200 );
        height: 250vh;
        flex-direction: column;
        color: #fff;
