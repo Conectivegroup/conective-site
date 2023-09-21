@@ -21,6 +21,25 @@ body{
 
 }
 
+h1{
+
+    color: rgb(255, 255, 255);
+}
+
+p{
+
+    color: rgb(194, 194, 194);
+
+
+}
+
+li{
+
+    color: rgb(194, 194, 194);
+
+
+}
+
 @keyframes fadeInAnimation {
 	0% {
 		opacity: 0;
@@ -384,7 +403,7 @@ header {
 
     }
 
-    .item1 img{
+    .item1 img li{
 
         display: flex;
         height: 150px;
@@ -427,7 +446,7 @@ header {
 
     .txt{
 
-        background: linear-gradient(60deg, #09013d 20% , #9D0022 );
+        /* background: linear-gradient(60deg, #09013d 20% , #9D0022 ); */
         color: #fff;
         border-radius: 40px;
         padding: 1rem
