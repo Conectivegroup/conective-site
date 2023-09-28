@@ -49,6 +49,30 @@ li{
 	}
 }
 
+@keyframes entrada {
+
+    0%{
+
+        transform: translateX(-1000px) scale(1.0);
+    
+    }
+
+    50%{
+    
+        transform: translateX(-100px) scale(1.1);
+    
+    }
+
+    100%{
+
+        transform: translateX(0px) scale(1.1);;
+    
+    
+    }
+
+
+}
+
 
 header {
     background-color: transparent;
@@ -117,6 +141,8 @@ header {
 
     display: flex;
     background-image: url(banco-de-imagens/fundoconective.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100vh;
 }
 
@@ -364,6 +390,12 @@ header {
         transform: scaleY(1.1) scaleX(1.1);
     }
 
+    .img-zap{
+
+        height: 30px;
+    
+    }
+
     /* .circulo{
 
         display: flex;
@@ -392,7 +424,7 @@ header {
     #icones{
 
        display: flex;
-       background: linear-gradient(0deg, #060126 100%, #15025900 , #3805f200 );
+       background: linear-gradient(180deg, #060126b0 90%,   #060126 );
        height: 250vh;
        flex-direction: column;
        color: #fff;
@@ -464,7 +496,7 @@ header {
     .site .exemplo:hover{
 
         height: 600px;
-        transform: scaleX(1.1);
+        transform: translateX(0px) scale(1.1);
         border-radius: 0px;
     
     }
@@ -518,7 +550,9 @@ header {
     .imgrespon{
 
         display: flex;
-        align-self: self-end;
+        width: auto;
+        height: 250px;
+        align-self: end;
     
         
     

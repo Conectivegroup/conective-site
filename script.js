@@ -29,3 +29,4 @@ function typeWriter(elemento) {
 
 const titulo = document.querySelector('.titulo');
 typeWriter(titulo);
+
